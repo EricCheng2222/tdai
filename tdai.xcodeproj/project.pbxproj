@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		07A308EF2172340F00718CF5 /* tdai */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tdai; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A308F22172340F00718CF5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07A308F92172342800718CF5 /* agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = agent.h; path = tdai/agent.h; sourceTree = "<group>"; };
+		07A308FA2172342800718CF5 /* boardUtilOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = boardUtilOperation.h; path = tdai/boardUtilOperation.h; sourceTree = "<group>"; };
+		07A308FB2172342800718CF5 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Board.h; path = tdai/Board.h; sourceTree = "<group>"; };
+		07A308FC2172398B00718CF5 /* TDNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TDNet.h; path = tdai/TDNet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,10 @@
 		07A308E62172340F00718CF5 = {
 			isa = PBXGroup;
 			children = (
+				07A308F92172342800718CF5 /* agent.h */,
+				07A308FC2172398B00718CF5 /* TDNet.h */,
+				07A308FB2172342800718CF5 /* Board.h */,
+				07A308FA2172342800718CF5 /* boardUtilOperation.h */,
 				07A308F12172340F00718CF5 /* tdai */,
 				07A308F02172340F00718CF5 /* Products */,
 			);
