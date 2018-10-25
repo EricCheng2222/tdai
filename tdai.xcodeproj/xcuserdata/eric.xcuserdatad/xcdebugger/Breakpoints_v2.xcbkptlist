@@ -127,7 +127,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
             endingLineNumber = "45"
-            landmarkName = "evalBoard(vector&lt;vector&lt;int&gt;&gt; &amp;board)"
+            landmarkName = "evalBoard(vector&lt;vector&lt;int&gt; &gt; &amp;board)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

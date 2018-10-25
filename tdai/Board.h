@@ -154,10 +154,10 @@ private:
     float preRtnVal;
     float endGamePoint;
     vector<vector<int> > status;
-    vector<vector<int>> preStatus;
+    vector<vector<int> > preStatus;
     vector<statistic> Statistic;
-    vector<vector<vector<int>>> history;
-    vector<vector<vector<int>>> preHistory;
+    vector<vector<vector<int> > > history;
+    vector<vector<vector<int> > > preHistory;
     vector<int> histoReward;
     
     void backProp(){

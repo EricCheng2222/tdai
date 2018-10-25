@@ -42,7 +42,7 @@ public:
         LookUpTable.resize(5);
     }
     
-    float evalBoard(vector<vector<int>> &board){
+    float evalBoard(vector<vector<int> > &board){
         float sum = 0;
         //column 4-tuple
         sum += LookUpTable[0].val(board[0][0], board[0][1], board[0][2], board[0][3]);
@@ -102,7 +102,7 @@ public:
         return sum;
     }
     
-    void  trainBoard(vector<vector<int>>&preAfterState, vector<vector<int>>&nowAfterState, float nowReward, float lambda=1.0){
+    void  trainBoard(vector<vector<int> >&preAfterState, vector<vector<int> >&nowAfterState, float nowReward, float lambda=1.0){
         float delta;
         bool isDecay = false;
         if ((int)nowReward == -200000) {
