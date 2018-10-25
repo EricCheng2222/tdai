@@ -164,9 +164,11 @@ public:
     }
     
     void save(){
+        
         TDL.save("/Users/eric/Documents/AI/ComputerGamingTheory/tdai/parameter.txt");
     }
     void load(){
+        
         TDL.load("/Users/eric/Documents/AI/ComputerGamingTheory/tdai/parameter.txt");
     }
 private:
